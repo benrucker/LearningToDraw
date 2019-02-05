@@ -8,4 +8,4 @@ This package includes the ANJI source and compiled code as well as a new evoluti
 
 ---
 
-Created for Jeremy Boyle's VA0110 at the University of Pittsburgh, Fall 2018. Lisenced under GNU General Public Lisence V2.0
+Created for Jeremy Boyle's SA0110 at the University of Pittsburgh, Fall 2018. Lisenced under GNU General Public Lisence V2.0
