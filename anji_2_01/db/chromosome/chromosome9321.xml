@@ -1,0 +1,12 @@
+<chromosome id="9321" primary-parent-id="6185"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<connection id="5" src-id="1" dest-id="3" weight="-0.1314110813439732"/>
+<connection id="208" src-id="3" dest-id="3" weight="6.321604044800161"/>
+<neuron id="219" type="hid" activation="sigmoid"/>
+<connection id="220" src-id="2" dest-id="219" weight="-7.115632809810241"/>
+<connection id="221" src-id="219" dest-id="3" weight="0.8877001602639876"/>
+<connection id="389" src-id="1" dest-id="219" weight="3.1373584010412623"/>
+<connection id="395" src-id="219" dest-id="219" weight="3.6867602402858237"/>
+</chromosome>

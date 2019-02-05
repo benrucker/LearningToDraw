@@ -1,0 +1,16 @@
+<chromosome id="23205" primary-parent-id="13712"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<connection id="5" src-id="1" dest-id="3" weight="-1.8440141643333237"/>
+<connection id="208" src-id="3" dest-id="3" weight="6.354715365732296"/>
+<neuron id="219" type="hid" activation="sigmoid"/>
+<connection id="220" src-id="2" dest-id="219" weight="-9.707039233981558"/>
+<connection id="221" src-id="219" dest-id="3" weight="0.37480726460018965"/>
+<connection id="395" src-id="219" dest-id="219" weight="6.846447213790011"/>
+<neuron id="736" type="hid" activation="sigmoid"/>
+<connection id="738" src-id="736" dest-id="219" weight="3.086792390356715"/>
+<neuron id="2179" type="hid" activation="sigmoid"/>
+<connection id="2180" src-id="1" dest-id="2179" weight="1.0"/>
+<connection id="2181" src-id="2179" dest-id="736" weight="1.3136173926891137"/>
+</chromosome>

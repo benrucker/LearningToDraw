@@ -1,0 +1,9 @@
+<chromosome id="23485" primary-parent-id="16901"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<connection id="5" src-id="1" dest-id="3" weight="-0.9936820406370613"/>
+<neuron id="219" type="hid" activation="sigmoid"/>
+<connection id="220" src-id="2" dest-id="219" weight="-0.6727043293593102"/>
+<connection id="221" src-id="219" dest-id="3" weight="0.9628290596224311"/>
+</chromosome>

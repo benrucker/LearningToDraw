@@ -1,0 +1,14 @@
+<chromosome id="13712" primary-parent-id="10245"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<connection id="5" src-id="1" dest-id="3" weight="-0.1314110813439732"/>
+<connection id="208" src-id="3" dest-id="3" weight="6.354715365732296"/>
+<neuron id="219" type="hid" activation="sigmoid"/>
+<connection id="220" src-id="2" dest-id="219" weight="-9.707039233981558"/>
+<connection id="221" src-id="219" dest-id="3" weight="0.37480726460018965"/>
+<connection id="395" src-id="219" dest-id="219" weight="3.6867602402858237"/>
+<neuron id="736" type="hid" activation="sigmoid"/>
+<connection id="737" src-id="1" dest-id="736" weight="1.0"/>
+<connection id="738" src-id="736" dest-id="219" weight="5.765840314780423"/>
+</chromosome>

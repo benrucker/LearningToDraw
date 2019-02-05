@@ -1,0 +1,14 @@
+<chromosome id="11339" primary-parent-id="7371"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<connection id="5" src-id="1" dest-id="3" weight="-0.9483282691953647"/>
+<connection id="6" src-id="2" dest-id="3" weight="0.8898980637965983"/>
+<connection id="208" src-id="3" dest-id="3" weight="1.5710432293519294"/>
+<neuron id="219" type="hid" activation="sigmoid"/>
+<connection id="220" src-id="2" dest-id="219" weight="-5.225738114228057"/>
+<connection id="389" src-id="1" dest-id="219" weight="1.8247899308396427"/>
+<neuron id="404" type="hid" activation="sigmoid"/>
+<connection id="405" src-id="219" dest-id="404" weight="1.526225393919016"/>
+<connection id="406" src-id="404" dest-id="3" weight="0.5366895853143014"/>
+</chromosome>

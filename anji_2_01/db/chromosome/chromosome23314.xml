@@ -1,0 +1,12 @@
+<chromosome id="23314" primary-parent-id="10245"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<connection id="5" src-id="1" dest-id="3" weight="1.2800250667565032"/>
+<connection id="208" src-id="3" dest-id="3" weight="7.736097804077383"/>
+<neuron id="219" type="hid" activation="sigmoid"/>
+<connection id="220" src-id="2" dest-id="219" weight="-9.36729077586254"/>
+<connection id="221" src-id="219" dest-id="3" weight="0.3411451857829997"/>
+<connection id="389" src-id="1" dest-id="219" weight="4.557328724125662"/>
+<connection id="395" src-id="219" dest-id="219" weight="3.6867602402858237"/>
+</chromosome>

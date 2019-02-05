@@ -1,0 +1,11 @@
+<chromosome id="5642" primary-parent-id="2234"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<connection id="5" src-id="1" dest-id="3" weight="-0.1048565259400247"/>
+<connection id="208" src-id="3" dest-id="3" weight="2.9199036588555543"/>
+<neuron id="219" type="hid" activation="sigmoid"/>
+<connection id="220" src-id="2" dest-id="219" weight="-0.997708559942778"/>
+<connection id="221" src-id="219" dest-id="3" weight="2.0166791616776547"/>
+<connection id="389" src-id="1" dest-id="219" weight="1.4454991865496796"/>
+</chromosome>

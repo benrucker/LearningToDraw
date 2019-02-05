@@ -1,0 +1,57 @@
+<chromosome id="23387" primary-parent-id="23292"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<connection id="5" src-id="1" dest-id="3" weight="-0.4637318208018711"/>
+<connection id="208" src-id="3" dest-id="3" weight="1.5942358970242418"/>
+<neuron id="219" type="hid" activation="sigmoid"/>
+<connection id="220" src-id="2" dest-id="219" weight="-0.13068077612757345"/>
+<connection id="221" src-id="219" dest-id="3" weight="5.111880450159763"/>
+<neuron id="404" type="hid" activation="sigmoid"/>
+<connection id="405" src-id="219" dest-id="404" weight="0.9426811485995847"/>
+<neuron id="568" type="hid" activation="sigmoid"/>
+<connection id="570" src-id="568" dest-id="219" weight="-4.950240015931736"/>
+<connection id="912" src-id="1" dest-id="404" weight="-7.92116155595307"/>
+<neuron id="913" type="hid" activation="sigmoid"/>
+<connection id="914" src-id="2" dest-id="913" weight="-0.40692311970027273"/>
+<connection id="915" src-id="913" dest-id="568" weight="-14.747776817746823"/>
+<neuron id="916" type="hid" activation="sigmoid"/>
+<connection id="917" src-id="0" dest-id="916" weight="6.729424771970493"/>
+<connection id="918" src-id="916" dest-id="219" weight="3.891281489284105"/>
+<connection id="1083" src-id="1" dest-id="568" weight="-1.6386951692926819"/>
+<neuron id="1088" type="hid" activation="sigmoid"/>
+<connection id="1090" src-id="1088" dest-id="219" weight="-1.6224157817466793"/>
+<neuron id="1619" type="hid" activation="sigmoid"/>
+<neuron id="1634" type="hid" activation="sigmoid"/>
+<connection id="1635" src-id="3" dest-id="1634" weight="1.8830595876193277"/>
+<connection id="1636" src-id="1634" dest-id="404" weight="7.860753794648883"/>
+<connection id="1807" src-id="568" dest-id="404" weight="-0.5363135772656266"/>
+<connection id="2345" src-id="219" dest-id="568" weight="-2.4483556558028314"/>
+<neuron id="5084" type="hid" activation="sigmoid"/>
+<connection id="5085" src-id="404" dest-id="5084" weight="0.8675591933375995"/>
+<connection id="5086" src-id="5084" dest-id="219" weight="0.20584343491526758"/>
+<neuron id="5087" type="hid" activation="sigmoid"/>
+<connection id="5088" src-id="568" dest-id="5087" weight="3.389804436898501"/>
+<connection id="5089" src-id="5087" dest-id="404" weight="4.503137994719139"/>
+<connection id="5597" src-id="1" dest-id="1619" weight="0.18772788002605778"/>
+<connection id="5598" src-id="0" dest-id="1619" weight="0.68853354206346"/>
+<connection id="9133" src-id="1619" dest-id="219" weight="7.242302840566567"/>
+<connection id="11456" src-id="568" dest-id="5084" weight="-0.832643960132526"/>
+<neuron id="12286" type="hid" activation="sigmoid"/>
+<connection id="12288" src-id="12286" dest-id="3" weight="-12.114339437849592"/>
+<connection id="12956" src-id="1" dest-id="12286" weight="-5.594625968541493"/>
+<connection id="12957" src-id="1619" dest-id="5084" weight="4.531014764889136"/>
+<neuron id="13950" type="hid" activation="sigmoid"/>
+<connection id="13951" src-id="1619" dest-id="13950" weight="-0.9378077837160466"/>
+<connection id="13952" src-id="13950" dest-id="12286" weight="7.174086559300288"/>
+<connection id="14287" src-id="2" dest-id="13950" weight="0.35521793365478516"/>
+<connection id="14452" src-id="0" dest-id="13950" weight="0.6530107419616333"/>
+<connection id="14627" src-id="568" dest-id="13950" weight="-0.6376534450199352"/>
+<connection id="14800" src-id="404" dest-id="13950" weight="-0.7157475476337443"/>
+<connection id="15496" src-id="404" dest-id="1088" weight="-0.8114503622055054"/>
+<connection id="15997" src-id="12286" dest-id="13950" weight="-0.0401914119720459"/>
+<connection id="16342" src-id="5087" dest-id="568" weight="-5.606044356362654"/>
+<connection id="17202" src-id="5084" dest-id="13950" weight="3.7221346952949044"/>
+<connection id="20876" src-id="5084" dest-id="1088" weight="4.28963622007698"/>
+<connection id="22517" src-id="5087" dest-id="1088" weight="0.35375486257802824"/>
+</chromosome>

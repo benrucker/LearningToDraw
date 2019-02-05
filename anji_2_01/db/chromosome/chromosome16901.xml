@@ -1,0 +1,10 @@
+<chromosome id="16901" primary-parent-id="1227"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<connection id="5" src-id="1" dest-id="3" weight="-0.9936820406370613"/>
+<connection id="6" src-id="2" dest-id="3" weight="0.9126282673527202"/>
+<neuron id="219" type="hid" activation="sigmoid"/>
+<connection id="220" src-id="2" dest-id="219" weight="-1.3297971097038157"/>
+<connection id="221" src-id="219" dest-id="3" weight="-0.655223384423079"/>
+</chromosome>

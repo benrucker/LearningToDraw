@@ -1,0 +1,12 @@
+<chromosome id="23241" primary-parent-id="10245"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<connection id="5" src-id="1" dest-id="3" weight="0.40880168919891535"/>
+<connection id="208" src-id="3" dest-id="3" weight="6.354715365732296"/>
+<neuron id="219" type="hid" activation="sigmoid"/>
+<connection id="220" src-id="2" dest-id="219" weight="-7.654220361960244"/>
+<connection id="221" src-id="219" dest-id="3" weight="0.8382156419651274"/>
+<connection id="389" src-id="1" dest-id="219" weight="5.914681318460802"/>
+<connection id="395" src-id="219" dest-id="219" weight="2.7174725138409848"/>
+</chromosome>

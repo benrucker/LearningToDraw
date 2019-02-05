@@ -1,0 +1,14 @@
+<chromosome id="7371" primary-parent-id="3806"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<connection id="5" src-id="1" dest-id="3" weight="-0.9483282691953647"/>
+<connection id="6" src-id="2" dest-id="3" weight="0.8898980637965983"/>
+<connection id="208" src-id="3" dest-id="3" weight="0.17692157120551322"/>
+<neuron id="219" type="hid" activation="sigmoid"/>
+<connection id="220" src-id="2" dest-id="219" weight="-5.52580905955706"/>
+<connection id="389" src-id="1" dest-id="219" weight="2.395936197682074"/>
+<neuron id="404" type="hid" activation="sigmoid"/>
+<connection id="405" src-id="219" dest-id="404" weight="2.178461354100782"/>
+<connection id="406" src-id="404" dest-id="3" weight="-0.6262691860268239"/>
+</chromosome>
